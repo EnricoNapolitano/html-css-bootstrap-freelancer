@@ -16,6 +16,9 @@
 }
 
 /* BLOCKOUT STYLE */
+.wrap {
+    max-width: 85%;
+}
 .height-100 {
     min-height: 100px;
 }
