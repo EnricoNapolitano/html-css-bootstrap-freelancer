@@ -1,6 +1,6 @@
 /* BLOCKOUT OUTLOOK */
 .brd {
-    border: 1px dashed black;
+    border: 2px dashed rgb(57, 57, 57);
 }
 .bg-blue {
     background-color: rgb(63, 63, 242);
@@ -11,10 +11,16 @@
 .bg-orange {
     background-color: orange;
 }
+.bg-pink {
+    background-color: pink;
+}
 
 /* BLOCKOUT STYLE */
 .height-100 {
     min-height: 100px;
+}
+.height-500 {
+    min-height: 500px;
 }
 .height-800 {
     min-height: 800px;
