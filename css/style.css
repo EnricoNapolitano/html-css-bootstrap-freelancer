@@ -22,6 +22,17 @@
 .bg-white {
     background-color: white;
 }
+.cs-color-blue {
+    color: var(--cs-blue);
+}
+.cs-color-dark-blue {
+    color: var(--cs-dark-blue);
+}
+
+/* GENERICS */
+img {
+    width: 100%;
+}
 
 /* UTILITIES */
 .star-line {
