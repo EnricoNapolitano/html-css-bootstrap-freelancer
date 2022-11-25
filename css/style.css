@@ -33,6 +33,11 @@
 img {
     width: 100%;
 }
+a.cs-btn {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* UTILITIES */
 .star-line {
@@ -41,6 +46,11 @@ img {
 }
 .brd {
     border: 2px dashed rgb(57, 57, 57);
+}
+.cs-btn {
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 8px 13px;
 }
 
 
@@ -58,10 +68,11 @@ img {
     min-height: 800px;
 }
 
-/* JUMBOTRON */
-#jumbotron {
+/* JUMBOTRON & ABOUT*/
+#jumbotron, #about {
     color: white;
 }
+
 
 /* * MEDIA QUERY */
 /* MD BREAKPOINT */ 
