@@ -1,12 +1,17 @@
-/* BLOCKOUT OUTLOOK */
-.brd {
-    border: 2px dashed rgb(57, 57, 57);
+/* CUSTOM COLORS */
+:root {
+    --cs-dark-blue: #2c3e50;
+    --cs-blue: #3a546d;
+    --cs-green: #1abc9c;
+}
+.bg-dark-blue {
+    background-color: var(--cs-dark-blue);
 }
 .bg-blue {
-    background-color: rgb(63, 63, 242);
+    background-color: var(--cs-blue);
 }
 .bg-green {
-    background-color: rgb(80, 190, 80);
+    background-color:var(--cs-green)
 }
 .bg-orange {
     background-color: orange;
@@ -14,8 +19,21 @@
 .bg-pink {
     background-color: pink;
 }
+.bg-white {
+    background-color: white;
+}
 
-/* BLOCKOUT STYLE */
+/* UTILITIES */
+.star-line {
+    width: 15%;
+    height: 5px;
+}
+.brd {
+    border: 2px dashed rgb(57, 57, 57);
+}
+
+
+/* STYLE */
 .wrap {
     max-width: 85%;
 }
@@ -28,3 +46,16 @@
 .height-800 {
     min-height: 800px;
 }
+
+/* JUMBOTRON */
+#jumbotron {
+    color: white;
+}
+
+/* * MEDIA QUERY */
+/* MD BREAKPOINT */ 
+ @media screen and (min-width: 768px) {
+    #jumbotron h1 {
+        font-size: 50px;
+    }
+} 
