@@ -55,6 +55,15 @@ a.cs-btn {
     max-width: 85%;
 }
 
+/** MAIN */
+/* CONTACT FORM */
+#contact textarea {
+    min-height: 150px;
+}
+#contact ::placeholder {
+    color:black;
+}
+
 /** FOOTER */
 footer span {
     display: inline-block;
@@ -73,7 +82,6 @@ footer span.cs-color-green {
     line-height: normal;
     padding: 0;
 }
-
 
 /** RESPONSIVE */
 /* MD SCREEN */ 
