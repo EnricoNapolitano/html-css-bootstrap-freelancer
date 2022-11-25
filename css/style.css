@@ -1,4 +1,4 @@
-/* CUSTOM COLORS */
+/*! CUSTOM COLORS */
 :root {
     --cs-dark-blue: #2c3e50;
     --cs-blue: #3a546d;
@@ -28,8 +28,14 @@
 .cs-color-dark-blue {
     color: var(--cs-dark-blue);
 }
+.cs-color-green {
+    color: var(--cs-green);
+}
 
 /* GENERICS */
+#jumbotron, #about, footer {
+    color: white;
+}
 img {
     width: 100%;
 }
@@ -68,9 +74,24 @@ a.cs-btn {
     min-height: 800px;
 }
 
-/* JUMBOTRON & ABOUT*/
-#jumbotron, #about {
-    color: white;
+
+/** FOOTER */
+footer span {
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    line-height: 50px;
+}
+footer span.cs-color-green {
+    display: inline;
+    border: none;
+    border-radius: none;
+    line-height: normal;
+    padding: 0;
 }
 
 
