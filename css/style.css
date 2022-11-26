@@ -1,8 +1,10 @@
-/*! CUSTOM COLORS */
+/*! COLORS */
+/* custom property */
 :root {
     --cs-dark-blue: #2c3e50;
     --cs-blue: #3a546d;
     --cs-green: #1abc9c;
+    --cs-daker-green: #159d82;
 }
 .bg-dark-blue {
     background-color: var(--cs-dark-blue);
@@ -26,7 +28,7 @@
     color: var(--cs-green);
 }
 
-/* GENERICS */
+/** GENERICS */
 #jumbotron, #about, footer {
     color: white;
 }
@@ -41,30 +43,28 @@ a.cs-btn {
     text-decoration: none;
 }
 
-/* UTILITIES */
+/** UTILITIES */
 .star-line {
     width: 15%;
     height: 5px;
-}
-.brd {
-    border: 2px dashed rgb(57, 57, 57);
 }
 .cs-btn {
     border: 1px solid white;
     border-radius: 8px;
     padding: 8px 13px;
 }
-.wrap {
-    max-width: 85%;
-}
 
 /** MAIN */
-/* CONTACT FORM */
+/* contact form */
 #contact textarea {
     min-height: 150px;
 }
 #contact ::placeholder {
     color:black;
+}
+#contact button:hover {
+    background-color: var(--cs-daker-green);
+    border-color: var(--cs-green);
 }
 
 /** FOOTER */
@@ -82,7 +82,7 @@ footer a {
 footer a.cs-color-green {
     display: inline;
     border: none;
-    border-radius: none;
+    border-radius: 0;
     text-decoration: none;
     line-height: normal;
     padding: 0;
